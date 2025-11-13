@@ -1,0 +1,62 @@
+
+--- Page 1 ---
+
+RAHUL PIDAPARTHI 
+HYDERABAD• +91-9182745442 • rahulpv333175@gmail.com 
+ 
+Enthusiastic and adaptable individual with a keen interest in problem-solving and a solid understanding of full-stack development 
+concepts, including Java, SQL, HTML, CSS, and JavaScript. Possesses strong critical thinking skills and a foundational grasp of 
+system design principles, eager to leverage these abilities in a challenging and rewarding professional environment. 
+ 
+SKILLS 
+ 
+Programming and Scripting: Java, JavaScript (TypeScript), Python, C/C++, SQL 
+Backend Technologies: Spring Boot, RESTful APIs, Node.js 
+Frontend Technologies: React, HTML5, CSS3 
+Cloud and DevOps: Azure, Jenkins, Docker, CI/CD, Git 
+Database: MySQL, PostgreSQL, MongoDB 
+ 
+PROJECTS 
+ 
+PERSONAL FINANCIAL DASHBOARD 
+Aug 2025 
+● Designed and developed a web-based dashboard to track income, expenses, and savings with interactive data visualizations.. 
+● Implemented budget planning and goal tracking features to improve financial awareness and decision-making.Optimized data 
+preprocessing and feature selection to improve model efficiency and reduce error rates. 
+● Built using HTML, CSS, JavaScript (Chart.js), Java, and MySQL with secure authentication and responsive design for 
+accessibility across. 
+ 
+LOCAL PDF-READER LLM (ON-DEVICE) 
+May 2024 
+● Built an on-device LLM-powered system to ingest PDFs, create semantic embeddings, and answer user questions via retrieval-
+augmented generation (RAG). 
+● Implemented PDF parsing, chunking, and vector search for fast, accurate retrieval; used a quantized local LLM for private, 
+offline inference. 
+● Tech: llama.cpp / GGUF model, Sentence-Transformers (all-MiniLM), FAISS/Chroma, Python (PyMuPDF), LangChain / 
+LlamaIndex; optimized for CPU/GPU with quantization. 
+ 
+EMPLOYEE LEAVE MANAGEMENT SYSTEM 
+Apr 2024 
+● Developed a desktop application using Python and Tkinter, designed for streamlined leave approvals in hierarchical 
+organizations.  
+● Packaged as an executable (.exe) file, it automates approval workflows based on role-based hierarchy. 
+ 
+CERTIFICATIONS 
+ 
+● IBM Machine Learning Professional Certificate 
+● Generative AI Essentials: Overview and Impact (Coursera) 
+● Prompt Engineering for ChatGPT (Coursera) 
+● Google Cloud Computing Foundation 
+● NPTEL Certifications: Problem Solving Through C, Programming in Java, Data Structures Through Python, Introduction to 
+Artificial Intelligence 
+ 
+EDUCATION 
+ 
+VASAVI COLLEGE OF ENGINEERING, HYDERABAD 
+Aug 2023 - July 2027 
+Bachelor of Technology in Computer Science & Engineering
+ 
+ACHIEVEMENTS & RECOGNITIONS  
+● Recognized as NPTEL Discipline Star for outstanding performance in multiple certification courses. 
+● Contributed to the Smart India Hackathon (SIH) by designing and developing a software-based solution to address real-world 
+problems.

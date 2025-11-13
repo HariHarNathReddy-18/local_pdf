@@ -1,0 +1,1 @@
+a web-based dashboard to track income, expenses, and savings . built using HTML, CSS, JavaScript (Chart.js), Java, and MySQL . developed an on-device LLM-powered system to ingest PDFs, create semantic embeddings .
