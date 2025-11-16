@@ -29,6 +29,9 @@ class PDFAnalyzerGUI(ctk.CTk):
         ctk.set_appearance_mode("dark")
         ctk.set_default_color_theme("blue")
 
+        self.page_image = None
+
+
         # State
         self.loaded_pdf_path = None
         self.extracted_text = ""
@@ -56,6 +59,15 @@ class PDFAnalyzerGUI(ctk.CTk):
             command=self.upload_pdf
         )
         self.upload_btn.pack(pady=20)
+
+        # View PDF button
+        self.view_pdf_btn = ctk.CTkButton(
+            self.sidebar,
+            text="View PDF",
+            command=self.open_pdf
+        )
+        self.view_pdf_btn.pack(pady=10)
+
 
         # Summarize button
         self.summary_btn = ctk.CTkButton(
@@ -93,6 +105,9 @@ class PDFAnalyzerGUI(ctk.CTk):
         # Chat output box
         self.chat_output = ctk.CTkTextbox(self, height=150, font=("Consolas", 14))
         self.chat_output.pack(fill="x", padx=10, pady=5)
+
+        
+
 
     # ============ Upload PDF ============
 
@@ -149,6 +164,17 @@ class PDFAnalyzerGUI(ctk.CTk):
             self.status_label.configure(text="Error")
             self.progress_bar.set(0)
             self.update_idletasks()
+            
+    # ============ Open PDF in external viewer ============
+    def open_pdf(self):
+        if not self.loaded_pdf_path:
+            self.chat_output.insert("end", "⚠️ Load a PDF first.\n")
+            return
+
+        try:
+            os.startfile(self.loaded_pdf_path)  # open with default PDF viewer
+        except Exception as e:
+            self.chat_output.insert("end", f"❌ Could not open PDF: {e}\n")
 
     # ============ RAG Question Asking ============
 
