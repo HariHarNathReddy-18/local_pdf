@@ -59,4 +59,7 @@ Bachelor of Technology in Computer Science & Engineering
 ACHIEVEMENTS & RECOGNITIONS  
 ● Recognized as NPTEL Discipline Star for outstanding performance in multiple certification courses. 
 ● Contributed to the Smart India Hackathon (SIH) by designing and developing a software-based solution to address real-world 
-problems.
+problems. 
+
+
+
